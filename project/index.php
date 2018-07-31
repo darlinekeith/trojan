@@ -10,11 +10,10 @@ $pass = $_COOKIE['Key_my_site'];
 $check = mysql_query("SELECT * FROM users WHERE username = '$username'")or die(mysql_error());
 while($info = mysql_fetch_array( $check ))
 {
-//if the cookie has the wrong password, they are taken to the login page
 if ($pass != $info['password'])
 { header("Location: login.php");
 }
-//otherwise they are shown the admin area
+
 else
 {
 echo "<a href=logout.php>Logout</a>";
@@ -53,10 +52,9 @@ body {
   <div id="nav">
     <ul>
       <li><a href="index.php">Ready jobs</a></li>
-      <li><a href="#">Highest success rates</a></li>
-      <li><a href="#">Highest failure</a></li>
+      <li><a href="high.php">Highest success rates</a></li>
+      <li><a href="fail.php">Highest failure</a></li>
 	  <li><a href="waiting.php">Waiting jobs</a></li>
-      <li id="current"><a href="#">Ready Jobs</a></li>
     </ul>
   </div>
   <div class="main_content">
