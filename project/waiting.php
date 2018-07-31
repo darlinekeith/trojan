@@ -55,9 +55,7 @@ body {
       <li><a href="index.php">Ready Jobs</a></li>
       <li><a href="high.php">Highest success rates</a></li>
       <li><a href="fail.php">Highest failure</a></li>
-    <li><a href="waiting.php">Waiting jobs</a></li>
-      <li id="current"><a href="#">Ready Jobs</a></li>
-    </ul>
+    <li><a href="waiting.php">Waiting jobs</a></li>    </ul>
   </div>
   <div class="main_content">
     <div class="sd_right">
@@ -71,7 +69,7 @@ body {
       <div class="text_padding" style="height:400px;">
         <h2>Trojan word task server</h2>
 <?php
- $den = mysql_query("SELECT *FROM ``");
+ /* $den = mysql_query("SELECT *FROM ``");
  echo "<table>\n";
  while ($line = mysql_fetch_array($den, MYSQL_ASSOC)) {
   echo "\t<tr>\n";
@@ -80,7 +78,7 @@ body {
   }
   echo "\t</tr>\n";
  }
- echo "</table>\n";
+ echo "</table>\n"; */
 ?>
       </div>
     </div>
