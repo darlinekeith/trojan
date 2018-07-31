@@ -1,0 +1,6 @@
+reverse,enilrad
+double,denden
+double,denden
+double,denden
+reverse,nigol
+replace,sbx
