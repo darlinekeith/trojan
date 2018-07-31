@@ -1,1 +1,7 @@
-# trojan
+# trojan word task server
+GROUP G-18
+NAME                 REG NUMBER           
+LWANGA DARLINE       17/U/5836/EVE    
+KYADONDO SOLOMON     17/U/5538/EVE
+KISA JEREMIAH        17/U/5250/EVE
+KIMERA GEORGE        17/U/5165/EVE
